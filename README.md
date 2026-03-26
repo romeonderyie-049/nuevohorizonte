@@ -1,2 +1,47 @@
 # nuevohorizonte
 Welcome to Nuevo Horizonte — your gateway to digital success.  We create powerful, easy-to-use digital products designed to help you build income online, grow your skills, and take control of your future. Whether you're just starting or looking to scale, our tools and guides are built to deliver real results. Unlock your new horizon today 
+<header>
+  <img src="logo.png" alt="Nuevo Horizonte Logo" class="logo"
+  <!-- index.html --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuevo Horizonte</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Nuevo Horizonte</h1>
+    <p>Turn your phone into a money-making machine.</p>
+    <a href="#products" class="btn">Start Earning</a>
+  </header>  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Nuevo Horizonte helps beginners start making money online with simple,
+      practical digital products. No experience needed.
+    </p>
+  </section>  <section id="products">
+    <h2>Our Product</h2>
+    <div class="card">
+      <h3>Digital Hustle Playbook</h3>
+      <p>Step-by-step guide to start earning online.</p>
+      <button onclick="buyNow()">Buy Now</button>
+    </div>
+  </section>  <footer>
+    <p>© 2026 Nuevo Horizonte</p>
+  </footer>  <script src="script.js"></script></body>
+</html><!-- styles.css -->body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+
+header { background: #111; color: white; padding: 60px 20px; }
+
+.btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #00c853; color: white; text-decoration: none; border-radius: 5px; }
+
+section { padding: 40px 20px; }
+
+.card { border: 1px solid #ddd; padding: 20px; margin: 20px auto; max-width: 300px; }
+
+button { padding: 10px 20px; background: black; color: white; border: none; cursor: pointer; }
+
+footer { background: #f4f4f4; padding: 20px; }
+
+/* script.js */ function buyNow() { alert("Connect your payment link here (Payhip/Gumroad)"); }
